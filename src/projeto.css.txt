@@ -1,0 +1,37 @@
+body {
+  background: #e7e7e7;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.bloco {
+  background: white;
+  padding: 20px;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #aaa;
+}
+
+button {
+  width: 200px;
+  padding: 10px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.painel p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}

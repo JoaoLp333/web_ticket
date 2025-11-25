@@ -1,12 +1,21 @@
-# Getting Started with Create React App
+# web_ticket projeto final
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+um sistema de gerenciamento de senhas/controle de atendimento  basico sem uso de banco de dados apenas uso de memoria, onde temos tres tipos de agentes (As, Responsavel por emitir senhas), (AA, Responsavel por acionar o sistema e chamar o proximo na fila para atendimento no guiche), (Ac, interessad no atendimento aciona um totem para emitir seu numero), na fila temos fila prioritaria(SP), senha geral(SG), senha para reitirada de exames(SE),
+a senha sempre representara o modelo YY ano, MM mes do ano, DD dia do mes, PP tipo de senha
 
-## Available Scripts
+## Instalacao
 
-In the project directory, you can run:
+Baixe o node
+clone o repositorio 
+usando o cmd navegue com o prompt ate a area que o projeto esta salvo 
 
-### `npm start`
+
+###  execucao `npm start`
+
+== apenas execute o comando npm start dentro da pasta ==
+
+
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +23,23 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Requisitos Para rodar `npm test`
+
+
+== apenas a instalacao do node na sua maquina  ==
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Exemplo de uso `npm run build`
+
+== espero que esse codigo auxilie em sistemas onde existe um grande fluxo de pessoas para facilitacao do atendimento e tambem para que diminua o fluxo de pessoas dentro de determinado local onde se precisa de controle de movimentacao ==
+
+
+== basicamente ira ser utilizado em locais com grande numero de pessoas que precisam ser atendidas de forma controlada para facilitar o fluxo de movimento no local ===
+
+
+
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +49,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Autores: `npm run eject`
+
+
+=====+++===== JOAO VICTOR LOPES DE ARAUJO =====+++=====
+=====+++===== MATHEUS ROCHA SINFRONIO =====+++=====
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
